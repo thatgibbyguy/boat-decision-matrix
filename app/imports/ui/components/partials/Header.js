@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <header>
-      <div className="units-row">
+      <div className="units-row split">
         <div className="unit-auto">
           <h1>{decisionType ? `The ${decisionType} ` : ''}Decision Matrix</h1>
         </div>

@@ -1,12 +1,9 @@
-// @import './vendor-imports';
+@import './variables';
 
-@import "{}/imports/plygrid/src/scss/components/colors";
-@import '{}/imports/plygrid/src/scss/components/variables';
-@import '{}/imports/plygrid/src/scss/components/media-queries';
-@import '{}/imports/plygrid/src/scss/components/mixins';
-@import '{}/imports/plygrid/src/scss/components/helpers';
-
+@import "{}/imports/plygrid/src/scss/components/reset";
 @import "{}/imports/plygrid/src/scss/components/grid";
 @import '{}/imports/plygrid/src/scss/components/alignments';
 @import "{}/imports/plygrid/src/scss/components/buttons";
 @import "{}/imports/plygrid/src/scss/components/grid";
+
+@import "{}/imports/plygrid/src/scss/components/typography";
